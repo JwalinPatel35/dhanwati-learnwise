@@ -90,7 +90,7 @@ export const featuredCourses: Course[] = [
       marathi: 'विम्याची आवश्यक माहिती',
     },
     description: {
-      english: 'Understand the basics of insurance, types of policies, and how to choose what's right for you.',
+      english: "Understand the basics of insurance, types of policies, and how to choose what's right for you.",
       hindi: 'बीमा की मूल बातें, पॉलिसियों के प्रकार, और आपके लिए सही चुनाव कैसे करें, यह समझें।',
       gujarati: 'વીમાની મૂળભૂત બાબતો, પોલિસીઓના પ્રકારો, અને તમારા માટે શું યોગ્ય છે તે કેવી રીતે પસંદ કરવું તે સમજો.',
       marathi: 'विम्याची मूलतत्त्वे, पॉलिसींचे प्रकार आणि तुमच्यासाठी योग्य काय आहे हे कसे निवडावे हे समजून घ्या.',
