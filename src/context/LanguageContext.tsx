@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 type Language = 'english' | 'hindi' | 'gujarati' | 'marathi';
@@ -43,6 +42,13 @@ const translations: Record<Language, Record<string, string>> = {
     'viewAll': 'View All',
     'loadMore': 'Load More',
     'answeredOn': 'Answered on',
+    
+    // Course page translations
+    'course.backToCourses': 'Back to courses',
+    'course.lessons': 'lessons',
+    'course.minutes': 'min',
+    'course.keyTakeaway': 'Key Takeaway',
+    'course.nextTopic': 'Next Topic',
   },
   hindi: {
     'app.name': 'धनवती',
@@ -66,7 +72,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Community page translations
     'nav.community': 'समुदाय',
     'community.heading': 'हमारे वित्तीय सीखने के समुदाय से जुड़ें',
-    'community.subheading': 'विशेषज्ञ सलाह प्राप्त करें, प्रश्न पूछें और दूसरों से उनकी वित्तीय यात्रा पर सीखें',
+    'community.subheading': 'विशेषज्ञ सलाह प्राप्त करें, प्रश्न पूछें और दूसरों से उन���ी वित्तीय यात्रा पर सीखें',
     'community.joinDiscussions': 'चर्चाओं में शामिल हों',
     'community.exploreQuestions': 'प्रश्नों का अन्वेषण करें',
     'community.expertDiscussions': 'विशेषज्ञ-नेतृत्व वाली चर्चाएँ',
@@ -76,6 +82,13 @@ const translations: Record<Language, Record<string, string>> = {
     'viewAll': 'सभी देखें',
     'loadMore': 'और लोड करें',
     'answeredOn': 'इस दिन उत्तर दिया गया',
+    
+    // Course page translations
+    'course.backToCourses': 'पाठ्यक्रमों पर वापस जाएं',
+    'course.lessons': 'पाठ',
+    'course.minutes': 'मिनट',
+    'course.keyTakeaway': 'मुख्य सीख',
+    'course.nextTopic': 'अगला विषय',
   },
   gujarati: {
     'app.name': 'ધનવતી',
@@ -87,7 +100,7 @@ const translations: Record<Language, Record<string, string>> = {
     'languages.select': 'ભાષા પસંદ કરો',
     'why.heading': 'શા માટે ધનવતી?',
     'why.reason1.title': 'તમારી ભાષામાં શીખો',
-    'why.reason1.desc': 'ઘણી ભારતીય ભાષાઓમાં ઉપલબ્ધ સામગ્રી',
+    'why.reason1.desc': 'ઘણી ભારતીય ભાષાઓમાં ઉપલब્ધ સામગ્રી',
     'why.reason2.title': 'સરળ અને સુલભ',
     'why.reason2.desc': 'ડિજિટલ સાક્ષરતાના તમામ સ્તરો માટે ડિઝાઇન કરેલ',
     'why.reason3.title': 'નિષ્ણાત-સંચાલિત સામગ્રી',
@@ -105,17 +118,24 @@ const translations: Record<Language, Record<string, string>> = {
     'community.expertDiscussions': 'નિષ્ણાત-નેતૃત્વ ચર્ચાઓ',
     'community.questionsAnswers': 'પ્રશ્નો અને જવાબો',
     'community.searchPlaceholder': 'પ્રશ્નો શોધો...',
-    'community.startNew': 'નવી ચર્ચા શરૂ કરો',
+    'community.startNew': 'નવી ચર્ચा શરૂ કરો',
     'viewAll': 'બધા જુઓ',
     'loadMore': 'વધુ લોડ કરો',
     'answeredOn': 'આ દિવસે જવાબ આપ્યો',
+    
+    // Course page translations
+    'course.backToCourses': 'અભ્યાસક્રમો પર પાછા જાઓ',
+    'course.lessons': 'પાઠ',
+    'course.minutes': 'મિનિટ',
+    'course.keyTakeaway': 'મુખ્ય શીખ',
+    'course.nextTopic': 'આગલો વિષય',
   },
   marathi: {
     'app.name': 'धनवती',
     'app.tagline': 'प्रत्येक महिलेसाठी आर्थिक शिक्षण',
     'hero.heading': 'स्वतःच्या गतीने आर्थिक कौशल्ये शिका',
     'hero.subheading': 'तुमच्या भाषेत सोपे, सहज समजण्यासारखे अभ्यासक्रम',
-    'hero.cta': 'शिकायला सुरुवात करा',
+    'hero.cta': 'शिकायला सुरुवात क��ा',
     'courses.heading': 'ठळक अभ्यासक्रम',
     'languages.select': 'भाषा निवडा',
     'why.heading': 'धनवती का?',
@@ -142,6 +162,13 @@ const translations: Record<Language, Record<string, string>> = {
     'viewAll': 'सर्व पहा',
     'loadMore': 'अधिक लोड करा',
     'answeredOn': 'या दिवशी उत्तर दिले',
+    
+    // Course page translations
+    'course.backToCourses': 'अभ्यासक्रमांकडे परत जा',
+    'course.lessons': 'धडे',
+    'course.minutes': 'मिनिटे',
+    'course.keyTakeaway': 'महत्त्वाचा संदेश',
+    'course.nextTopic': 'पुढील विषय',
   }
 };
 

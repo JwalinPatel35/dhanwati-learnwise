@@ -1,5 +1,6 @@
 
 import { ArrowRight, Clock, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import type { Course } from '../lib/courseData';
 
@@ -57,10 +58,13 @@ export function CourseCard({ course }: CourseCardProps) {
             <span>{course.lessonCount} Lessons</span>
           </div>
           
-          <button className="flex items-center gap-1 text-sm font-medium text-dhanvati-600 hover:text-dhanvati-700 transition-colors">
+          <Link 
+            to={`/courses/${course.id}`} 
+            className="flex items-center gap-1 text-sm font-medium text-dhanvati-600 hover:text-dhanvati-700 transition-colors"
+          >
             {t('more')}
             <ArrowRight size={14} className="ml-1 transition-transform group-hover:translate-x-1" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
