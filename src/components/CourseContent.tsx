@@ -31,7 +31,7 @@ export function CourseContent({ courseId }: CourseContentProps) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 pt-24 pb-8"> {/* Added pt-24 to account for fixed header */}
       {/* Back button */}
       <div className="mb-8">
         <Link to="/" className="inline-flex items-center text-dhanvati-600 hover:text-dhanvati-700">
