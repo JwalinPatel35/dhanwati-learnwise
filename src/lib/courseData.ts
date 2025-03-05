@@ -1,4 +1,3 @@
-
 export interface Course {
   id: string;
   title: {
@@ -42,6 +41,26 @@ export const featuredCourses: Course[] = [
     duration: 60,
   },
   {
+    id: 'public-provident-fund',
+    title: {
+      english: 'Public Provident Fund (PPF)',
+      hindi: 'लोक सामान्य निधि (PPF)',
+      gujarati: 'પબ્લિક પ્રોવિડન્ટ ફંડ (PPF)',
+      marathi: 'पब्लिक प्रोविडंट फंड (PPF)',
+    },
+    description: {
+      english: "Learn about the government-backed PPF scheme, its benefits, and how it can help you build long-term wealth.",
+      hindi: "सरकारी PPF योजना, उसके लाभों और यह कैसे आपको दीर्घकालिक संपत्ति बनाने में मदद कर सकता है, इसके बारे में जानें।",
+      gujarati: "સરકારી PPF યોજના, તેના લાભો અને તે કેવી રીતે તમને લાંબા ગાળાની સંપत્તિ બનાવવામાં મદદ કરી શકે છે તે વિશે જાણો.",
+      marathi: "सरकारी PPF योजना, त्याचे फायदे आणि ते कसे दीर्घकालीन संपत्ती निर्माण करण्यास मदत करू शकते याबद्दल शिका.",
+    },
+    image: 'https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+    level: 'beginner',
+    lessonCount: 4,
+    category: 'investing',
+    duration: 45,
+  },
+  {
     id: 'understanding-mutual-funds',
     title: {
       english: 'Understanding Mutual Funds',
@@ -71,8 +90,8 @@ export const featuredCourses: Course[] = [
     },
     description: {
       english: 'Explore government-backed financial schemes specifically designed for women in India.',
-      hindi: 'भारत में विशेष रूप से महिलाओं के लिए डिज़ाइन की गई सरकारी वित्तीय योजनाओं के बारे में जानें।',
-      gujarati: 'ભારતમાં ખાસ કરીને મહિલાઓ માટે ડિઝાઇન કરાયેલી સરકારી નાણાકીય યોજનાઓ વિશે જાણો.',
+      hindi: 'भारत में विशेष रूप से महिलाओं के लिए डिज़ाइन की गई सरकारी वित्तीय योजनाओं के बांे में जानें।',
+      gujarati: 'ભારતમાં ખાસ કરીને મहિલાઓ માટે ડિઝાઇન કરાયેલી સરકारी નાણાકીય યોજનાઓ વિશે જાણો.',
       marathi: 'भारतातील महिलांसाठी विशेषतः डिझाइन केलेल्या सरकारी आर्थिक योजनांचा अन्वेषण करा.',
     },
     image: 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
@@ -92,7 +111,7 @@ export const featuredCourses: Course[] = [
     description: {
       english: "Understand the basics of insurance, types of policies, and how to choose what's right for you.",
       hindi: 'बीमा की मूल बातें, पॉलिसियों के प्रकार, और आपके लिए सही चुनाव कैसे करें, यह समझें।',
-      gujarati: 'વીમાની મૂળભૂત બાબતો, પોલિસીઓના પ્રકારો, અને તમારા માટે શું યોગ્ય છે તે કેવી રીતે પસંદ કરવું તે સમજો.',
+      gujarati: 'વીમાની મૂળભૂત બાબતો, પોલિસીઓના પ્રકારો, અને તમારા માટે શું યોग્ય છે તે કેવી રીતે પસંદ કરવું તે સमજો.',
       marathi: 'विम्याची मूलतत्त्वे, पॉलिसींचे प्रकार आणि तुमच्यासाठी योग्य काय आहे हे कसे निवडावे हे समजून घ्या.',
     },
     image: 'https://images.unsplash.com/photo-1597271479291-37763318c60d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
