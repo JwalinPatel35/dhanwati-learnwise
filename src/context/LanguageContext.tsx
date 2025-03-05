@@ -29,6 +29,20 @@ const translations: Record<Language, Record<string, string>> = {
     'more': 'Learn More',
     'mobile.title': 'Take your learning anywhere',
     'mobile.desc': 'Access courses on any device, anytime',
+    
+    // Community page translations
+    'nav.community': 'Community',
+    'community.heading': 'Join Our Financial Learning Community',
+    'community.subheading': 'Get expert advice, ask questions, and learn from others on their financial journey',
+    'community.joinDiscussions': 'Join Discussions',
+    'community.exploreQuestions': 'Explore Questions',
+    'community.expertDiscussions': 'Expert-Led Discussions',
+    'community.questionsAnswers': 'Questions & Answers',
+    'community.searchPlaceholder': 'Search questions...',
+    'community.startNew': 'Start New Discussion',
+    'viewAll': 'View All',
+    'loadMore': 'Load More',
+    'answeredOn': 'Answered on',
   },
   hindi: {
     'app.name': 'धनवती',
@@ -48,6 +62,20 @@ const translations: Record<Language, Record<string, string>> = {
     'more': 'और जानें',
     'mobile.title': 'अपना सीखना कहीं भी ले जाएं',
     'mobile.desc': 'किसी भी डिवाइस पर, कभी भी पाठ्यक्रम एक्सेस करें',
+    
+    // Community page translations
+    'nav.community': 'समुदाय',
+    'community.heading': 'हमारे वित्तीय सीखने के समुदाय से जुड़ें',
+    'community.subheading': 'विशेषज्ञ सलाह प्राप्त करें, प्रश्न पूछें और दूसरों से उनकी वित्तीय यात्रा पर सीखें',
+    'community.joinDiscussions': 'चर्चाओं में शामिल हों',
+    'community.exploreQuestions': 'प्रश्नों का अन्वेषण करें',
+    'community.expertDiscussions': 'विशेषज्ञ-नेतृत्व वाली चर्चाएँ',
+    'community.questionsAnswers': 'प्रश्न और उत्तर',
+    'community.searchPlaceholder': 'प्रश्न खोजें...',
+    'community.startNew': 'नई चर्चा शुरू करें',
+    'viewAll': 'सभी देखें',
+    'loadMore': 'और लोड करें',
+    'answeredOn': 'इस दिन उत्तर दिया गया',
   },
   gujarati: {
     'app.name': 'ધનવતી',
@@ -67,6 +95,20 @@ const translations: Record<Language, Record<string, string>> = {
     'more': 'વધુ જાણો',
     'mobile.title': 'તમારું શિક્ષણ ક્યાંય લઈ જાઓ',
     'mobile.desc': 'કોઈપણ ઉપકરણ પર, કોઈપણ સમયે અભ્યાસક્રમો ઍક્સેસ કરો',
+    
+    // Community page translations
+    'nav.community': 'સમુદાય',
+    'community.heading': 'અમારા નાણાકીય શિક્ષણ સમુદાયમાં જોડાઓ',
+    'community.subheading': 'નિષ્ણાત સલાહ મેળવો, પ્રશ્નો પૂછો, અને અન્ય લોકો પાસેથી તેમની નાણાકીય યાત્રા પર શીખો',
+    'community.joinDiscussions': 'ચર્ચાઓમાં જોડાઓ',
+    'community.exploreQuestions': 'પ્રશ્નોનું અન્વેષણ કરો',
+    'community.expertDiscussions': 'નિષ્ણાત-નેતૃત્વ ચર્ચાઓ',
+    'community.questionsAnswers': 'પ્રશ્નો અને જવાબો',
+    'community.searchPlaceholder': 'પ્રશ્નો શોધો...',
+    'community.startNew': 'નવી ચર્ચા શરૂ કરો',
+    'viewAll': 'બધા જુઓ',
+    'loadMore': 'વધુ લોડ કરો',
+    'answeredOn': 'આ દિવસે જવાબ આપ્યો',
   },
   marathi: {
     'app.name': 'धनवती',
@@ -86,6 +128,20 @@ const translations: Record<Language, Record<string, string>> = {
     'more': 'अधिक जाणून घ्या',
     'mobile.title': 'तुमचे शिक्षण कुठेही घेऊन जा',
     'mobile.desc': 'कोणत्याही डिव्हाइसवर, कधीही अभ्यासक्रम अॅक्सेस करा',
+    
+    // Community page translations
+    'nav.community': 'समुदाय',
+    'community.heading': 'आमच्या आर्थिक शिक्षण समुदायात सामील व्हा',
+    'community.subheading': 'तज्ञ सल्ला मिळवा, प्रश्न विचारा आणि इतरांकडून त्यांच्या आर्थिक प्रवासावर शिका',
+    'community.joinDiscussions': 'चर्चांमध्ये सामील व्हा',
+    'community.exploreQuestions': 'प्रश्न एक्सप्लोर करा',
+    'community.expertDiscussions': 'तज्ञ-नेतृत्व चर्चा',
+    'community.questionsAnswers': 'प्रश्न आणि उत्तरे',
+    'community.searchPlaceholder': 'प्रश्न शोधा...',
+    'community.startNew': 'नवीन चर्चा सुरू करा',
+    'viewAll': 'सर्व पहा',
+    'loadMore': 'अधिक लोड करा',
+    'answeredOn': 'या दिवशी उत्तर दिले',
   }
 };
 
