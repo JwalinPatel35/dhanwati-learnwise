@@ -31,7 +31,7 @@ export const featuredCourses: Course[] = [
     description: {
       english: 'Learn how to start saving money, create a budget, and set financial goals.',
       hindi: 'पैसे बचाना शुरू करने, बजट बनाने और वित्तीय लक्ष्य निर्धारित करने का तरीका जानें।',
-      gujarati: 'પૈસા બચાવવાનું શરૂ કરવાનું, બજેટ બનાવવાનું અને નાણાકીય લક્ષ્યો સેટ કરવાનું શીખો.',
+      gujarati: 'પૈસા બચાવવાનું શરૂ કરવાનું, બજેટ બનાવવાનું અને નાણાકીય લक્ષ્યો સેટ કરવાનું શીખો.',
       marathi: 'पैसे वाचवणे सुरू करणे, बजेट तयार करणे आणि आर्थिक उद्दिष्टे निश्चित करणे कसे शिका.',
     },
     image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
@@ -61,6 +61,26 @@ export const featuredCourses: Course[] = [
     duration: 45,
   },
   {
+    id: 'stock-market-basics',
+    title: {
+      english: 'Stock Market Basics',
+      hindi: 'स्टॉक मार्केट की बेसिक्स',
+      gujarati: 'સ્ટોક માર્કેટનાં મૂળભૂત જાણકારીઓ',
+      marathi: 'स्टॉक मार्केट मूलभूत माहिती',
+    },
+    description: {
+      english: "Learn about stock markets, types of stocks, trading strategies, and common myths about investing in stocks.",
+      hindi: "स्टॉक मार्केट, शेयरों के प्रकार, ट्रेडिंग रणनीतियों और स्टॉक में निवेश के बारे में आम मिथकों के बारे में जानें।",
+      gujarati: "સ્ટોક માર્કેટ, શેરોના પ્રકાર, ટ્રેડિંગ વ્યૂહરચનાઓ અને સ્ટોક્સમાં રોકાણ વિશેની સામાન્ય માન્યતાઓ વિશે જાણો.",
+      marathi: "स्टॉक मार्केट, शेअर्सचे प्रकार, ट्रेडिंग स्ट्रॅटेजीज आणि शेअर्समध्ये गुंतवणुकीबद्दलच्या सामान्य गैरसमजुती याबद्दल शिका.",
+    },
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+    level: 'beginner',
+    lessonCount: 6,
+    category: 'investing',
+    duration: 75,
+  },
+  {
     id: 'understanding-mutual-funds',
     title: {
       english: 'Understanding Mutual Funds',
@@ -70,8 +90,8 @@ export const featuredCourses: Course[] = [
     },
     description: {
       english: 'Learn what mutual funds are, how they work, and how to start investing in them.',
-      hindi: 'जानें कि म्यूचुअल फंड क्या हैं, वे कैसे काम करते हैं, और उनमें निवेश कैसे शुरू करें।',
-      gujarati: 'જાણો કે મ્યુચ્યુઅલ ફંડ્સ શું છે, તે કેવી રીતે કામ કરે છે, અને તેમાં રોકાણ કેવી રીતે શરૂ કરવું.',
+      hindi: 'जानें कि म्यूचुअल फंड क्या हैं, वे कैस��� काम करते हैं, और उनमें निवेश कैसे शुरू करें।',
+      gujarati: 'જાણો કે મ્યુચ્યુઅલ ફંડ્સ શું છે, તે કેવી રીતે કામ કરે છે, અને તેમાं રોકાણ કેવી રીતે શરૂ કરવું.',
       marathi: 'म्युच्युअल फंड काय आहेत, ते कसे कार्य करतात आणि त्यांमध्ये गुंतवणूक कशी सुरू करावी हे शिका.',
     },
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
@@ -85,7 +105,7 @@ export const featuredCourses: Course[] = [
     title: {
       english: 'Government Schemes for Women',
       hindi: 'महिलाओं के लिए सरकारी योजनाएं',
-      gujarati: 'મહિલાઓ માટે સરકારી યોજનાઓ',
+      gujarati: 'મहિલાઓ માટે સરકારી યોજનાઓ',
       marathi: 'महिलांसाठी सरकारी योजना',
     },
     description: {
