@@ -1,4 +1,4 @@
-<lov-code>
+
 type CourseContent = {
   english: string;
   hindi: string;
@@ -611,4 +611,360 @@ export const courseContentData: CourseContentRecord = {
             <tr>
               <td class="border border-gray-300 px-4 py-2">ELSS</td>
               <td class="border border-gray-300 px-4 py-2">3 yrs</td>
-              <td class="border border-gray-30
+              <td class="border border-gray-300 px-4 py-2">10-15%</td>
+              <td class="border border-gray-300 px-4 py-2">High</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">EPF</td>
+              <td class="border border-gray-300 px-4 py-2">Till retirement</td>
+              <td class="border border-gray-300 px-4 py-2">8.1%</td>
+              <td class="border border-gray-300 px-4 py-2">Low</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">NSC</td>
+              <td class="border border-gray-300 px-4 py-2">5 yrs</td>
+              <td class="border border-gray-300 px-4 py-2">7.7%</td>
+              <td class="border border-gray-300 px-4 py-2">Low</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">FD</td>
+              <td class="border border-gray-300 px-4 py-2">5 yrs</td>
+              <td class="border border-gray-300 px-4 py-2">6-7%</td>
+              <td class="border border-gray-300 px-4 py-2">Low</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">NPS</td>
+              <td class="border border-gray-300 px-4 py-2">Till retirement</td>
+              <td class="border border-gray-300 px-4 py-2">10-12%</td>
+              <td class="border border-gray-300 px-4 py-2">Medium</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ PPF for safe investment, ELSS for high returns.</p>
+      
+      <h3>5️⃣ Additional Tax Deductions</h3>
+      <ul>
+        <li>Section 80D (Health Insurance)</li>
+        <li>Section 80E (Education Loan)</li>
+        <li>Section 80G (Donations)</li>
+      </ul>
+      
+      <h3>6️⃣ How to Save Money on Taxes?</h3>
+      <p>Invest in tax-saving schemes & claim deductions.</p>
+      
+      <h3>7️⃣ Common Tax-Saving Mistakes</h3>
+      <ul>
+        <li>❌ Not using 80C fully</li>
+        <li>❌ Ignoring HRA benefits</li>
+        <li>❌ Last-minute tax planning</li>
+      </ul>
+      
+      <h3 class="mt-8">🌱 Key Takeaway:</h3>
+      <p>Plan taxes early to maximize savings!</p>
+    `,
+    hindi: `
+      <h2>कर योजना और पैसा बचाना</h2>
+      
+      <h3>1️⃣ कर योजना क्या है?</h3>
+      <p>कर योजना कानूनी रूप से कर देयता को कम करने में मदद करती है, जिससे बचत और निवेश संभव होता है।</p>
+      
+      <h3>2️⃣ भारत में करों के प्रकार</h3>
+      <p>आयकर, जीएसटी, पूंजीगत लाभ कर, संपत्ति कर।</p>
+      
+      <h3>3️⃣ कर स्लैब (वित्त वर्ष 2023-24)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">आय सीमा</th>
+              <th class="border border-gray-300 px-4 py-2">पुराना कर व्यवस्था</th>
+              <th class="border border-gray-300 px-4 py-2">नया कर व्यवस्था</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹0 – ₹2.5L</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹2.5L – ₹5L</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹5L – ₹7.5L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">10%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹7.5L – ₹10L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">15%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹10L – ₹12.5L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹12.5L – ₹15L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">25%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹15L+</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ कटौती के आधार पर कर प्रणाली चुनें।</p>
+      
+      <h3>4️⃣ कर-बचत निवेश विकल्प (धारा 80C ₹1.5L सीमा)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">निवेश</th>
+              <th class="border border-gray-300 px-4 py-2">लॉक-इन</th>
+              <th class="border border-gray-300 px-4 py-2">रिटर्न</th>
+              <th class="border border-gray-300 px-4 py-2">जोखिम</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">PPF</td>
+              <td class="border border-gray-300 px-4 py-2">15 वर्ष</td>
+              <td class="border border-gray-300 px-4 py-2">7.1%</td>
+              <td class="border border-gray-300 px-4 py-2">कम</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">ELSS</td>
+              <td class="border border-gray-300 px-4 py-2">3 वर्ष</td>
+              <td class="border border-gray-300 px-4 py-2">10-15%</td>
+              <td class="border border-gray-300 px-4 py-2">उच्च</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ सुरक्षित निवेश के लिए PPF, उच्च लाभ के लिए ELSS।</p>
+      
+      <h3>5️⃣ अतिरिक्त कर कटौती</h3>
+      <p>धारा 80D (स्वास्थ्य बीमा), 80E (शिक्षा ऋण), 80G (दान)।</p>
+      
+      <h3>6️⃣ करों पर पैसे कैसे बचाएं?</h3>
+      <p>कर-बचत योजनाओं में निवेश करें और कटौती का लाभ लें।</p>
+      
+      <h3>7️⃣ सामान्य कर-बचत गलतियां</h3>
+      <p>80C का पूरा उपयोग नहीं करना, HRA लाभ को नजरअंदाज करना।</p>
+      
+      <h3 class="mt-8">🌱 मुख्य सीख:</h3>
+      <p>कर योजना पहले से करें, बचत बढ़ाएं!</p>
+    `,
+    gujarati: `
+      <h2>કર આયોજન અને નાણાં બચાવવા</h2>
+      
+      <h3>1️⃣ કર આયોજન શું છે?</h3>
+      <p>કર આયોજન કાયદેસર રીતે કર ભરપાઈ ઓછી કરવામાં મદદ કરે છે, જેનાથી બચત અને રોકાણ શક્ય બને છે.</p>
+      
+      <h3>2️⃣ ભારતમાં કરના પ્રકારો</h3>
+      <p>આવકવેરો, જીએસટી, મૂડી લાભ કર, મિલ્કત કર.</p>
+      
+      <h3>3️⃣ ટેક્સ સ્લેબ્સ (FY 2023-24)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">આવક રેન્જ</th>
+              <th class="border border-gray-300 px-4 py-2">જૂની પદ્ધતિ</th>
+              <th class="border border-gray-300 px-4 py-2">નવી પદ્ધતિ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹0 – ₹2.5L</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹2.5L – ₹5L</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹5L – ₹7.5L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">10%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹7.5L – ₹10L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">15%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹10L – ₹12.5L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹12.5L – ₹15L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">25%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹15L+</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ કપાતના આધાર પર ટેક્સ રેજીમ પસંદ કરો.</p>
+      
+      <h3>4️⃣ ટેક્સ-બચત રોકાણ વિકલ્પો (કલમ 80C ₹1.5L મર્યાદા)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">રોકાણ</th>
+              <th class="border border-gray-300 px-4 py-2">લોક-ઇન</th>
+              <th class="border border-gray-300 px-4 py-2">રિટર્ન</th>
+              <th class="border border-gray-300 px-4 py-2">રિસ્ક</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">PPF</td>
+              <td class="border border-gray-300 px-4 py-2">15 વર્ષ</td>
+              <td class="border border-gray-300 px-4 py-2">7.1%</td>
+              <td class="border border-gray-300 px-4 py-2">નીચું</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">ELSS</td>
+              <td class="border border-gray-300 px-4 py-2">3 વર્ષ</td>
+              <td class="border border-gray-300 px-4 py-2">10-15%</td>
+              <td class="border border-gray-300 px-4 py-2">ઊંચુ</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ સલામત રોકાણ માટે PPF, વધુ વળતર માટે ELSS.</p>
+      
+      <h3>5️⃣ વધારાની ટેક્સ કપાતો</h3>
+      <p>કલમ 80D (આરોગ્ય વીમો), 80E (અભ્યાસ લોન), 80G (દાન).</p>
+      
+      <h3>6️⃣ ટેક્સ પર નાણાં કેવી રીતે બચાવવા?</h3>
+      <p>ટેક્સ બચાવ યોજનાઓમાં રોકાણ કરો અને કપાતનો લાભ લો.</p>
+      
+      <h3>7️⃣ સામાન્ય ટેક્સ-બચત ભૂલો</h3>
+      <p>80C નો સંપૂર્ણ ઉપયોગ ન કરવો, HRA લાભ અવગણવો.</p>
+      
+      <h3 class="mt-8">🌱 મુખ્ય શીખ:</h3>
+      <p>કર આયોજન વહેલું કરો, વધુ બચત કરો!</p>
+    `,
+    marathi: `
+      <h2>कर नियोजन आणि पैसे वाचवणे</h2>
+      
+      <h3>1️⃣ कर नियोजन म्हणजे काय?</h3>
+      <p>कर नियोजन कर देयता कायदेशीर मार्गाने कमी करण्यास मदत करते, ज्यामुळे बचत आणि गुंतवणूक शक्य होते.</p>
+      
+      <h3>2️⃣ भारतातील कराचे प्रकार</h3>
+      <p>उत्पन्न कर, जीएसटी, भांडवली नफा कर, मालमत्ता कर.</p>
+      
+      <h3>3️⃣ कर स्लॅब्स (FY 2023-24)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">उत्पन्न श्रेणी</th>
+              <th class="border border-gray-300 px-4 py-2">जुनी प्रणाली</th>
+              <th class="border border-gray-300 px-4 py-2">नवीन प्रणाली</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹0 – ₹2.5L</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹2.5L – ₹5L</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹5L – ₹7.5L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">10%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹7.5L – ₹10L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">15%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹10L – ₹12.5L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹12.5L – ₹15L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">25%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹15L+</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ वजावटीनुसार कर प्रणाली निवडा.</p>
+      
+      <h3>4️⃣ कर-बचत गुंतवणूक पर्याय (कलम 80C ₹1.5L मर्यादा)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">गुंतवणूक</th>
+              <th class="border border-gray-300 px-4 py-2">लॉक-इन</th>
+              <th class="border border-gray-300 px-4 py-2">रिटर्न</th>
+              <th class="border border-gray-300 px-4 py-2">रिस्क</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">PPF</td>
+              <td class="border border-gray-300 px-4 py-2">15 वर्षे</td>
+              <td class="border border-gray-300 px-4 py-2">7.1%</td>
+              <td class="border border-gray-300 px-4 py-2">कमी</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">ELSS</td>
+              <td class="border border-gray-300 px-4 py-2">3 वर्षे</td>
+              <td class="border border-gray-300 px-4 py-2">10-15%</td>
+              <td class="border border-gray-300 px-4 py-2">जास्त</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ सुरक्षित गुंतवणुकीसाठी PPF, उच्च परताव्यासाठी ELSS.</p>
+      
+      <h3>5️⃣ अतिरिक्त कर वजावटी</h3>
+      <p>कलम 80D (आरोग्य विमा), 80E (शिक्षण कर्ज), 80G (दान).</p>
+      
+      <h3>6️⃣ करांवर पैसे कसे वाचवावे?</h3>
+      <p>कर बचत योजनांमध्ये गुंतवणूक करा आणि वजावट मिळवा.</p>
+      
+      <h3>7️⃣ सामान्य कर-बचत चुका</h3>
+      <p>80C चा पूर्ण उपयोग न करणे, HRA लाभ दुर्लक्षित करणे.</p>
+      
+      <h3 class="mt-8">🌱 महत्त्वाचा संदेश:</h3>
+      <p>कर नियोजन लवकर करा, जास्त बचत करा!</p>
+    `,
+  }
+};
