@@ -15,7 +15,7 @@ export interface Course {
   image: string;
   level: 'beginner' | 'intermediate' | 'advanced';
   lessonCount: number;
-  category: 'investing' | 'saving' | 'insurance' | 'government-schemes';
+  category: 'investing' | 'saving' | 'insurance' | 'government-schemes' | 'tax';
   duration: number; // in minutes
 }
 
@@ -72,7 +72,7 @@ export const featuredCourses: Course[] = [
       english: "Learn about stock markets, types of stocks, trading strategies, and common myths about investing in stocks.",
       hindi: "स्टॉक मार्केट, शेयरों के प्रकार, ट्रेडिंग रणनीतियों और स्टॉक में निवेश के बारे में आम मिथकों के बारे में जानें।",
       gujarati: "સ્ટોક માર્કેટ, શેરોના પ્રકાર, ટ્રેડિંગ વ્યૂહરચનાઓ અને સ્ટોક્સમાં રોકાણ વિશેની સામાન્ય માન્યતાઓ વિશે જાણો.",
-      marathi: "स्टॉक मार्केट, शेअर्सचे प्रकार, ट्रेडिंग स्ट्रॅटेजीज आणि शेअर्समध्ये गुंतवणुकीबद्दलच्या सामान्य गैरसमजुती याबद्दल शिका.",
+      marathi: "स्टॉक मार्केट, शेअर्सचे प्रकार, ट्रेडिंग स्ट्रॅटेजीज आणि शेअर्समध्ये गुंतवणूक कशी सुरू करावी हे शिका.",
     },
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
     level: 'beginner',
@@ -139,5 +139,25 @@ export const featuredCourses: Course[] = [
     lessonCount: 7,
     category: 'insurance',
     duration: 100,
+  },
+  {
+    id: 'tax-planning',
+    title: {
+      english: 'Tax Planning & Saving Money',
+      hindi: 'कर योजना और पैसा बचाना',
+      gujarati: 'કर આયોજન અને પૈસા બચાવવા',
+      marathi: 'कर नियोजन आणि पैसे वाचवणे',
+    },
+    description: {
+      english: 'Learn how to minimize your tax liability legally and make the most of your income through smart financial planning.',
+      hindi: 'कानूनी रूप से अपनी कर देयता को कम करने और स्मार्ट वित्तीय योजना से अपनी आय का अधिकतम लाभ उठाने का तरीका जानें।',
+      gujarati: 'કાયદેસર રીતે તમારી કર ભરપાઈ ઓછી કરવાની અને સ્માર્ટ નાણાકીય આયોજન દ્વારા તમારી આवકનો મहत્तમ લાभ લેवાની રીત શીખો.',
+      marathi: 'कायदेशीर मार्गाने तुमची कर देयता कमी करण्याचे आणि स्मार्ट आर्थिक नियोजनातून तुमच्या उत्पन्नाचा जास्तीत जास्त लाभ घेण्याचे तंत्र शिका.',
+    },
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+    level: 'intermediate',
+    lessonCount: 8,
+    category: 'tax',
+    duration: 90,
   },
 ];

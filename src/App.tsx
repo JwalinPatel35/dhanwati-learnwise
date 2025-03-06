@@ -9,6 +9,7 @@ import Community from "./pages/Community";
 import CourseBasicsOfSaving from "./pages/CourseBasicsOfSaving";
 import CoursePPF from "./pages/CoursePPF";
 import CourseStockMarketBasics from "./pages/CourseStockMarketBasics";
+import CourseTaxPlanning from "./pages/CourseTaxPlanning";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/courses/basics-of-saving" element={<CourseBasicsOfSaving />} />
           <Route path="/courses/public-provident-fund" element={<CoursePPF />} />
           <Route path="/courses/stock-market-basics" element={<CourseStockMarketBasics />} />
+          <Route path="/courses/tax-planning" element={<CourseTaxPlanning />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

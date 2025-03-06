@@ -1,3 +1,4 @@
+<lov-code>
 type CourseContent = {
   english: string;
   hindi: string;
@@ -528,4 +529,86 @@ export const courseContentData: CourseContentRecord = {
       <p>स्मार्ट गुंतवणूक करा आणि संयम ठेवा! 🚀</p>
     `,
   },
-};
+  'tax-planning': {
+    english: `
+      <h2>Tax Planning & Saving Money</h2>
+      
+      <h3>1️⃣ What is Tax Planning?</h3>
+      <p>Tax planning helps reduce tax liability legally by using tax-saving schemes and deductions.</p>
+      
+      <h3>2️⃣ Types of Taxes in India</h3>
+      <p>Income Tax, GST, Capital Gains Tax, Property Tax.</p>
+      
+      <h3>3️⃣ Tax Slabs (FY 2023-24)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">Income Range</th>
+              <th class="border border-gray-300 px-4 py-2">Old Regime</th>
+              <th class="border border-gray-300 px-4 py-2">New Regime</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹0 – ₹2.5L</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+              <td class="border border-gray-300 px-4 py-2">0%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹2.5L – ₹5L</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+              <td class="border border-gray-300 px-4 py-2">5%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹5L – ₹7.5L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">10%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹7.5L – ₹10L</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+              <td class="border border-gray-300 px-4 py-2">15%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹10L – ₹12.5L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">20%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹12.5L – ₹15L</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">25%</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">₹15L+</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+              <td class="border border-gray-300 px-4 py-2">30%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>✅ Choose a regime based on your deductions.</p>
+      
+      <h3>4️⃣ Tax-Saving Investment Options (Section 80C ₹1.5L Limit)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2">Investment</th>
+              <th class="border border-gray-300 px-4 py-2">Lock-in</th>
+              <th class="border border-gray-300 px-4 py-2">Returns</th>
+              <th class="border border-gray-300 px-4 py-2">Risk</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">PPF</td>
+              <td class="border border-gray-300 px-4 py-2">15 yrs</td>
+              <td class="border border-gray-300 px-4 py-2">7.1%</td>
+              <td class="border border-gray-300 px-4 py-2">Low</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">ELSS</td>
+              <td class="border border-gray-300 px-4 py-2">3 yrs</td>
+              <td class="border border-gray-30
